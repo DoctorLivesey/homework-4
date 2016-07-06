@@ -34,8 +34,15 @@ html{
 }
 .contacts{
 	float: right;
+	width: 124px;
+	height: 67px;
 	margin-right: 40px;
 	margin-top: 11px;
+	line-height:1.5em;
+	opacity: .8; 
+	color: #1289a7; 
+	font-family: "Tahoma";
+	font-size: 11px;
 }
 .contries{
 	float: right;
@@ -62,56 +69,54 @@ html{
 	background: #323232;
 	box-shadow: 0 1px 8px #323232;
 }
-.menu a{
-	float: left;
-	text-decoration: none;
-	color: white;
-	line-height: 2em;
-	margin-left: 50px;
-}
 .tringles{
 	position: absolute;
 	display: inline-block;
 	width: 0px;
 	height: 0px;
+	margin-right: 20px;
 	margin-left: 10px;
 	margin-top: 15px;
 	background: white;
 	border: 3px solid #323232;	border-top: 7px solid white;
-
 }
-.hoverBlock,
-.hoverBlock2,
-.hoverBlock3{
+.menu li {
+	float: left;
+	height: 34px;
+	margin: 0;
+	padding-left: 47px;
+	margin-left: 14px;
+	color: white;
+	line-height: 2em;
+}
+ul .hoverbord,
+ul .hoverbord2,
+ul .hoverbord3{
 	display: none;
-	margin-top: 32px;
 	position: absolute;
-	width: 150px;
-	height: 150px;
+	width: 130px;
+	top: 100%;
+	height: 170px;
+	border-top: 1px solid black;
+	padding-left: 10px;
 	background: #323232;
-    box-shadow: 0 5px 5px rgba(0,0,0,.75);
+	box-shadow: 0 1px 8px #323232;
 }
-.hoverBlock{
-	margin-left: 138px;
+ul .hoverbord> li,
+ul .hoverbord2> li,
+ul .hoverbord3> li{
+	padding: 0;
 }
-.hoverBlock2{
-	margin-left: 260px;	
-}
-.hoverBlock3{
-	margin-left: 370px;
-}
-.hoverBlock> li >a{
-	margin-left: 10px;
-	line-height: 1.7em;
-}
-.hoverBlock2> li >a{
-	margin-left: 20px;
-}
-.hoverBlock3> li >a{
-	margin-left: 30px;
-}
-ul.menu > li:hover > ul{
+.travel:hover ul{
 	display: block;
+}
+.service:hover ul{
+	display: block;
+	margin-left: -30px;
+}
+.partners:hover ul{
+	display: block;
+	margin-left: -30px;
 }
 /* LEFT & RIGHT MENU*/
 .left{
